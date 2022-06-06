@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/xiaomi/surya" name="ProjectBlaze-Devices/device_xiaomi_surya.git" remote="github" revision="12.1" />
- <project path="kernel/xiaomi/surya" name="ProjectBlaze-Devices/kernel_xiaomi_surya.git" remote="github" revision="12.1" />
- <project path="vendor/xiaomi/surya" name="ProjectBlaze-Devices/vendor_xiaomi_surya.git" remote="github" revision="12.1" />
- 
- </manifest>
+        
+        <remote name="blaze"
+        fetch="https://github.com/ProjectBlaze" />
+
+<!-- device trees -->
+
+        <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="blaze" revision="12.1" />
+        <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="blaze" revision="12.1" />
+                
+
+<!-- kernel -->
+        
+        <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="blaze" revision="12.1" />
+
+</manifest>
