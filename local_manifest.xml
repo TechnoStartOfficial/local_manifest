@@ -3,7 +3,7 @@
 
         
         <remote name="blaze"
-        fetch="https://github.com/ProjectBlaze" />
+        fetch="https://github.com/ProjectBlaze-Devices" />
 
 <!-- device trees -->
 
